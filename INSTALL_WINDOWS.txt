@@ -1,0 +1,18 @@
+CARD STOPWATCH — INSTALACIÓN RÁPIDA
+
+1) Instala Node.js LTS: https://nodejs.org/
+2) Descomprime remnote-card-stopwatch.zip.
+3) Entra a la carpeta, Shift + clic derecho > Abrir en Terminal/PowerShell.
+4) Ejecuta: npm install
+5) Ejecuta: npx remnote-plugin init
+6) Ejecuta: npm run dev
+7) RemNote > Settings > Plugins > Build > Develop from localhost
+8) Pon: http://localhost:8080
+9) Abre tus flashcards.
+
+Resultado esperado:
+Tarjeta 1: 00:00 -> 00:01 -> 00:02...
+Pasas/calificas
+Tarjeta 2: 00:00 -> 00:01 -> 00:02...
+
+No autoavanza ni toca tus respuestas.

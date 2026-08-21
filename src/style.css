@@ -1,0 +1,24 @@
+.cs-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 4px 12px 2px;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.cs-timer {
+  font-variant-numeric: tabular-nums;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+  padding: 6px 9px;
+  border-radius: 9px;
+  background: transparent;
+  transition: color 180ms ease, background 180ms ease;
+}
+
+.cs-icon { margin-right: 5px; }
+.cs-ok { color: var(--rn-clr-content-primary, inherit); }
+.cs-warn { color: #b7791f; background: rgba(214, 158, 46, 0.13); }
+.cs-slow { color: #c53030; background: rgba(229, 62, 62, 0.13); }
