@@ -2,14 +2,14 @@
   "author": "Persona1",
   "name": "Card Stopwatch",
   "description": "A simple stopwatch for RemNote flashcards that automatically resets when you move to the next card. It only measures elapsed time and never auto-advances your reviews.",
-  "enableOnMobile": false,
+  "enableOnMobile": true,
   "id": "Persona1-yfszswv",
 "repoUrl": "https://github.com/claudiasokat/remnote-card-stopwatch",
   "manifestVersion": 1,
   "version": {
     "major": 0,
     "minor": 0,
-    "patch": 1
+    "patch": 3
   },
   "requestNative": false,
   "requiredScopes": [
