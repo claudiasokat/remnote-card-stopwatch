@@ -50,6 +50,16 @@ module.exports = {
       templateContent: `
         <!doctype html>
         <html>
+        <head>
+<style>
+html, body {
+  margin: 0;
+  padding: 0;
+  background: transparent !important;
+  overflow: hidden;
+}
+</style>
+</head>
           <body></body>
           <script>
             const params = new URLSearchParams(window.location.search);
