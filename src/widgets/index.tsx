@@ -20,7 +20,7 @@ async function onActivate(plugin: ReactRNPlugin) {
   });
 
   await plugin.app.registerWidget('card_stopwatch', WidgetLocation.QueueToolbar, {
-  dimensions: { height: 38, width: 110 },
+  dimensions: { height: 30, width: 84 },
 });
 }
 
